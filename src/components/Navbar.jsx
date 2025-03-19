@@ -19,6 +19,7 @@ const Navbar = () => {
           <p className="text-[#5f5f5f]">Login</p>
           <p className="text-[#5f5f5f]">Signup</p>
         </div>
+      </div>
     </div>
   );
 };
