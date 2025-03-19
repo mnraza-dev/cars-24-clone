@@ -2,8 +2,12 @@ import React from "react";
 import Logo from "/logo.webp";
 const Navbar = () => {
   return (
-    <div>
-      <img src={Logo} alt="Logo" className="w-28 h-28" />
+    <div className="flex items-center justify-between drop-shadow-lg shadow-md h-22 px-8">
+      <img
+        src="https://media.cars24.com/cars24/seo/static/1_20230830_1693395013.png"
+        alt="Logo"
+        className="w-[80px] h-[39px]"
+      />
     </div>
   );
 };
