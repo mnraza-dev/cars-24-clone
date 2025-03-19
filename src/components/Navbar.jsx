@@ -16,7 +16,9 @@ const Navbar = () => {
           <p className="text-[#5f5f5f]">Rent</p>
         </div>
         <div className="flex items-center gap-4">
-            
+          <p className="text-[#5f5f5f]">Login</p>
+          <p className="text-[#5f5f5f]">Signup</p>
+        </div>
     </div>
   );
 };
