@@ -9,7 +9,12 @@ const CardService = () => {
       />
 
       <div className="text-2xl font-semibold">Buy _________</div>
-      
+      <div>
+        <h2>Drive home your dream car</h2>
+      </div>
+      <div>
+        <button className="bg-[#F5F5F5] ">View all cars</button>
+      </div>
     </div>
   );
 };
