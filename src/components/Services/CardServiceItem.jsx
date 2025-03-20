@@ -1,5 +1,5 @@
 import React from "react";
-const CardService = () => {
+const CardServiceItem = () => {
   return (
     <div className=" ">
       <img
@@ -19,4 +19,4 @@ const CardService = () => {
   );
 };
 
-export default CardService;
+export default CardServiceItem;
