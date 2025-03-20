@@ -10,11 +10,11 @@ const HeroSection = () => {
       />
       <div className="absolute top-2/6 left-[40%] transform -translate-x-1/2 -translate-y-1/2 text-white ">
         <div className="text-4xl font-bold mb-4 flex gap-2 items-center">
-          Welcome to {" "}
+          Welcome to
           <img
             src="https://s3.ap-south-1.amazonaws.com/com.cars24.images/production/india/homepage/cars24_web_super.png"
             alt="Logo"
-            className="w-[80px] h-[39px]"
+            className="w-[80px] h-[36px] flex items-center"
           />
         </div>
         <p className="text-8xl font-semibold w-[80%]">better drives, better Lives</p>
