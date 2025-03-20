@@ -7,6 +7,7 @@ const CardServiceItem = () => {
         alt="BUY"
         className="w-full rounded-b-2xl"
       />
+      <div className="services"></div>
       <div className="text-2xl font-semibold">Buy _________</div>
       <div>
         <h2>Drive home your dream car</h2>
