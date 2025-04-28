@@ -1,14 +1,21 @@
 FROM node:20-alpine
 
+# Install pnpm
+RUN npm install -g pnpm
+
 WORKDIR /app
 
-COPY package*.json .
+# Copy dependency files
+COPY package.json pnpm-lock.yaml ./
+
+# Install dependencies
 RUN pnpm install
 
-COPY . . 
+# Copy the rest of the app
+COPY . .
 
+# Expose the dev server port
 EXPOSE 5173
 
-CMD ["pnpm", "run","dev"]
-
-
+# Start the development server
+CMD ["pnpm", "run", "dev"]
